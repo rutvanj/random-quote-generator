@@ -1,3 +1,4 @@
+
 import random
 
 quotes = [
@@ -7,4 +8,6 @@ quotes = [
     "Build things that matter."
 ]
 
-print(random.choice(quotes))
+while True:
+    input("Press Enter for a quote ")
+    print(random.choice(quotes))
